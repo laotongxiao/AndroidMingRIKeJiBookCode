@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="bgcolor">
+        <item>0xBBE24A83</item>
+        <item>0xBB318AD6</item>
+        <item>0xBBD73943</item>
+        <item>0xBBE69A08</item>
+        <item>0xBBBD9663</item>
+        <item>0xBBD45ABC</item>
+        <item>0xBB4AA6D6</item>
+        <item>0xBB8064D2</item>
+        <item>0xBBF7A81E</item>
+    </integer-array>
+    <string-array name="word">
+        <item>微信</item>
+        <item>通讯录</item>
+        <item>QQ</item>
+        <item>相机</item>
+        <item>时钟</item>
+        <item>备忘录</item>
+        <item>音乐</item>
+        <item>互联网</item>
+        <item>邮件</item>
+    </string-array>
+</resources>

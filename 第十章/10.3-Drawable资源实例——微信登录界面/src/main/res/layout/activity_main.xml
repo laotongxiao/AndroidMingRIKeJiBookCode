@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.mingrisoft.MainActivity">
+
+    <ImageView
+        android:layout_width="@dimen/imageView"
+        android:layout_height="@dimen/imageView"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/imageView_layout_marginTop"
+        android:src="@drawable/ico_144_144a"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/text_number"/>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/lock"
+        android:drawableRight="@drawable/close"
+        android:password="true"
+        android:hint="@string/editText_hint"
+        />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:background="@drawable/green_mint"
+        android:text="@string/text_login"
+        android:enabled="false"
+        android:textColor="@color/button_text_white"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/textView_marginTop"
+        android:text="@string/text_issue"
+        android:textColor="@color/textView_bottom"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/imageView_layout_marginTop"
+        android:text="@string/text_more"
+        android:textColor="@color/textView_bottom"
+        />
+</LinearLayout>

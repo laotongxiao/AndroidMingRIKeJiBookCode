@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">微信登录</string>
+    <string name="password">请填写密码</string>
+    <string name="text_issue">登录遇到问题？</string>
+    <string name="text_more">更多</string>
+    <string name="text_number">1234567890</string>
+    <string name="text_login">登录</string>
+    <string name="editText_hint">请填写密码</string>
+</resources>

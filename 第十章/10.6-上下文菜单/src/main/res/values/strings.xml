@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">10.5</string>
+    <string name="introduce_copy">复制</string>
+    <string name="introduce_collect">收藏</string>
+    <string name="introduce_translate">翻译</string>
+    <string name="introduce_report">举报</string>
+    <string name="book_collect">收藏</string>
+    <string name="book_report">举报</string>
+    <string name="name">明日科技</string>
+    <string name="introduce">《开发实战1200例》已更名为《开发实例大全》（基础卷 提高卷）现已全面上市，各平台有售。</string>
+</resources>

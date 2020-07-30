@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">首 页</string>
+    <string name="menu_title_settings">设 置</string>
+    <string name="menu_title_regard">关 于</string>
+    <string name="title1">明日学院</string>
+    <string name="text1">技术支持：吉林省明日科技有限公司</string>
+    <string name="text2">网址：http://www.mingrisoft.com</string>
+    <string name="text3">企业邮箱：mingrisoft@mingrisoft.com</string>
+    <string name="text4">技术服务热线：0431-84978981</string>
+    <string name="Regard_name">关 于</string>
+</resources>
