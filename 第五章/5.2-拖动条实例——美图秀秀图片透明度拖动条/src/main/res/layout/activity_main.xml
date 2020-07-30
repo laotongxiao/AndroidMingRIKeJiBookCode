@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.mingrisoft.MainActivity">
+    <!-- 设置一张山水图片-->
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@mipmap/lijiang"/>
+    <!-- 定义一个拖动条 -->
+    <SeekBar
+        android:id="@+id/seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="255"
+        android:progress="255"
+
+        />
+    <!--属性图片 -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:scaleType="fitXY"
+        android:src="@mipmap/meitu"/>
+</LinearLayout>
