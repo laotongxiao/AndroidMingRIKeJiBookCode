@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.mingrisoft.myapplication.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="一天，张山的店里来了一个顾客，挑了25元的货，顾客拿出100元，张山没有零钱找不开，就到隔壁李石的店里把这100元换成零钱，回来给顾客找了75元零钱。过一会，李石来找张山，说刚才的那100是假钱，张山马上给李石换了张真钱，问张山赔了多少钱？"
+        android:textSize="16sp"
+        />
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+
+            android:id="@+id/rb_a"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:text="A:125" />
+
+        <!--单选按钮B-->
+
+        <RadioButton
+
+            android:id="@+id/rb_b"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:text="B:100" />
+
+        <!--单选按钮C-->
+
+        <RadioButton
+
+            android:id="@+id/rb_c"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:text="C:175" />
+
+        <!--单选按钮D-->
+
+        <RadioButton
+
+            android:id="@+id/rb_d"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:text="D:200" />
+
+    </RadioGroup>
+
+    <!--提交按钮-->
+
+    <Button
+
+        android:id="@+id/bt"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:text="提 交" />
+
+
+</LinearLayout>

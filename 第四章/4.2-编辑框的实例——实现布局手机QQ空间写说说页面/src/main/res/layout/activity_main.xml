@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+     	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     	    xmlns:tools="http://schemas.android.com/tools"
+     	    android:layout_width="match_parent"
+     	    android:layout_height="match_parent"
+     	    android:orientation="vertical"
+     	    android:paddingBottom="16dp"
+     	    android:paddingLeft="16dp"
+     	    android:paddingRight="16dp"
+     	    android:paddingTop="16dp"
+     	    android:background="#EAEAEA"
+     	    tools:context="com.mingrisoft.MainActivity" >
+    <!-- 添加写说说编辑框 -->
+     	    <EditText
+     	        android:id="@+id/editText1"
+     	        android:layout_width="match_parent"
+     	        android:layout_height="wrap_content"
+     	        android:lines="6"
+     	        android:hint="说点什么吧..."
+     	        android:padding="5dp"
+     	        android:background="#FFFFFF"
+     	        android:gravity="top"
+     	        android:layout_marginBottom="10dp"
+     	        android:inputType="textMultiLine" >
+
+     	    </EditText>
+    <!-- 设置添加照片栏目 -->
+     	    <TextView
+     	         android:id="@+id/textView1"
+     	         android:layout_width="match_parent"
+     	         android:layout_height="wrap_content"
+     	         android:drawableLeft="@mipmap/addpicture"
+     	         android:text="添加照片"
+     	         android:drawablePadding="8dp"
+     	         android:gravity="center_vertical"
+     	         android:padding="8dp"
+     	         android:background="#FFFFFF"
+     	         android:textColor="#767676"
+     	        />
+     	<!-- 设置底部分享栏目 -->
+     	    <TextView
+     	         android:id="@+id/textView2"
+     	         android:layout_width="match_parent"
+     	         android:layout_height="wrap_content"
+     	         android:drawableLeft="@mipmap/bottom"
+     	        />
+
+     	</LinearLayout>
