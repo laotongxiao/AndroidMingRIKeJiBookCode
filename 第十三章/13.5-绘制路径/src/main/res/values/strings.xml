@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">简易手写板</string>
+    <string name="clear">清除手写板</string>
+</resources>
