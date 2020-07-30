@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">登录微信</string>
+    <string name="number">账 号</string>
+    <string name="password">密 码</string>
+    <string name="number_1">QQ号/微信号/Email</string>
+    <string name="password_1">密码</string>
+</resources>

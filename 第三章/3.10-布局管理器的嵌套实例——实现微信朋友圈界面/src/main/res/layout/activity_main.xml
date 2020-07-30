@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mingrisoft.MainActivity" >
+    <!-- 第一条信息 -->
+     <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_margin="10dp" >
+         <ImageView
+             android:id="@+id/ico1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentLeft="true"
+             android:layout_margin="10dp"
+             android:src="@mipmap/v_ico1" />
+         <TextView
+             android:id="@+id/name1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="10dp"
+             android:layout_toRightOf="@+id/ico1"
+             android:text="雪绒花"
+             android:textColor="#576B95" />
+         <TextView
+             android:id="@+id/content1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@id/name1"
+             android:layout_marginBottom="5dp"
+             android:layout_marginTop="5dp"
+             android:layout_toRightOf="@+id/ico1"
+             android:minLines="3"
+             android:text="祝我的亲人、朋友们新年快乐！" />
+         <TextView
+             android:id="@+id/time1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@id/content1"
+             android:layout_marginTop="3dp"
+             android:layout_toRightOf="@id/ico1"
+             android:text="昨天"
+             android:textColor="#9A9A9A" />
+          <ImageView
+              android:id="@+id/comment1"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignParentRight="true"
+              android:layout_below="@id/content1"
+              android:src="@mipmap/comment" />
+          <ImageView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@mipmap/line" />
+     </RelativeLayout>
+    <!-- 分隔线 -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/line" />
+    <!-- 第二条信息 -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp" >
+
+        <ImageView
+            android:id="@+id/ico2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="10dp"
+            android:src="@mipmap/v_ico2" />
+
+        <TextView
+            android:id="@+id/name2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/ico2"
+            android:text="淡淡的印象"
+            android:textColor="#576B95" />
+
+        <TextView
+            android:id="@+id/content2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name2"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/ico2"
+            android:minLines="3"
+            android:text="奋斗就是每一天都很难，可一年比一年容易。不奋斗就是每一天都很容易，可一年比一年难。怕吃苦的人吃苦一辈子，不怕吃苦的人吃苦一阵子。所以拼着一切代价奔你的前程；拼一个春夏秋冬，赢一个无悔人生！" />
+
+        <TextView
+            android:id="@+id/time2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/content2"
+            android:layout_marginTop="3dp"
+            android:layout_toRightOf="@id/ico2"
+            android:text="6小时前"
+            android:textColor="#9A9A9A" />
+
+        <ImageView
+            android:id="@+id/comment2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/content2"
+            android:src="@mipmap/comment" />
+    </RelativeLayout>
+    <!-- 分隔线 -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/line" />
+
+</LinearLayout>
