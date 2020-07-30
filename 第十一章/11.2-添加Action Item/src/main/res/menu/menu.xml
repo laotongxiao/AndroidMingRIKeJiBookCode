@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/search"
+        android:title="@string/search"
+        app:showAsAction="always"></item>
+    <item
+        android:id="@+id/bell"
+        android:icon="@drawable/bell"
+        android:title="@string/bell"
+        app:showAsAction="always"></item>
+    <item
+        android:id="@+id/settings"
+        android:title="@string/settings"
+        app:showAsAction="ifRoom"></item>
+    <item
+        android:id="@+id/about"
+        android:title="@string/about"
+        app:showAsAction="never"></item>
+</menu>

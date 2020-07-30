@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">首页</string>
+    <string name="search">search</string>
+    <string name="bell">消 息</string>
+    <string name="settings">设 置</string>
+    <string name="about">关 于</string>
+</resources>
